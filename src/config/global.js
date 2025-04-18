@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Comunicación en el entorno empresarial',
   },
   menuPrincipal: {
     menu: [
@@ -15,70 +15,25 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Importancia de la comunicación en la empresa',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_1_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Función estratégica de la comunicación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Tipos de comunicación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +73,117 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Díaz Pérez, S. y Guzmán Góngora, C. D. L. Á. (2014). Una mirada a la racialidad desde la comunicación organizacional: ( ed.). La Habana, Cuba: Editorial Universitaria.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/71605?page=14',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Sayago, L. (2009). Investigación en comunicación organizacional: ( ed.). Santa Fe, Argentina, Argentina: El Cid Editor | apuntes.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/28706?page=4',
+    },
+    {
+      referencia:
+        'Fernández Belda, J. (2014). La empresa pendiente: cambio organizacional a través de personas: ( ed.). Ugerman Editor.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/78912?page=90',
+    },
+    {
+      referencia:
+        'Pacheco, R. (2006). Competencias claves para la comunicación organizacional: ( ed.). Red Revista Latinoamericana de Comunicación CHASQUI.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/17891?page=1',
+    },
+    {
+      referencia:
+        'Quintana, J. y Soler, C. (2011). Anticípate: (1 ed.). Madrid, LID Editorial España.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/271223?page=27',
+    },
+    {
+      referencia:
+        'Castro, A. D. (2014). Comunicación organizacional: técnicas y estrategias: ( ed.). Universidad del Norte.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/69924?page=22',
+    },
+    {
+      referencia:
+        'García Soidán, P. & Días Fouces, O. (2014). Redes y retos: estudios sobre la comunicación en la era digital: ( ed.). Ediciones Octaedro, S.L.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/113684?page=10',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Asertividad',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Habilidad de expresar ideas y sentimientos de manera clara y respetuosa.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Canal de comunicación',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Medio a través del cual se transmite un mensaje en la organización.',
+    },
+    {
+      termino: 'Clima organizacional',
+      significado:
+        'Percepción colectiva sobre el ambiente de trabajo en una empresa.',
+    },
+    {
+      termino: 'Colaboración',
+      significado:
+        'Trabajo conjunto entre personas para alcanzar un objetivo común.',
+    },
+    {
+      termino: 'Comunicación',
+      significado:
+        'Proceso de intercambio de información entre individuos o grupos.',
+    },
+    {
+      termino: 'Comunicación asertiva',
+      significado:
+        'Expresión de pensamientos y emociones de manera clara y sin agresividad.',
+    },
+    {
+      termino: 'Comunicación verbal',
+      significado:
+        'Uso del lenguaje hablado o escrito para transmitir un mensaje.',
+    },
+    {
+      termino: 'Confianza',
+      significado:
+        'Creencia en la fiabilidad y honestidad de los miembros de un equipo.',
+    },
+    {
+      termino: 'Cultura organizacional',
+      significado:
+        'Conjunto de valores y normas que caracterizan a una empresa.',
+    },
+    {
+      termino: 'Empatía',
+      significado:
+        'Capacidad de comprender y compartir los sentimientos de otros.',
+    },
+    {
+      termino: 'Escucha activa',
+      significado:
+        'Atención plena y comprensiva a los mensajes del interlocutor.',
+    },
+    {
+      termino: 'Feedback',
+      significado:
+        'Retroalimentación sobre el desempeño o la comunicación en el trabajo.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'Capacidad de influir y motivar a un equipo para alcanzar objetivos.',
+    },
+    {
+      termino: 'Trabajo en equipo',
+      significado:
+        'Cooperación entre personas para lograr una meta compartida.',
+    },
+    {
+      termino: 'Transparencia',
+      significado:
+        'Honestidad y apertura en la comunicación dentro de una organización.',
     },
   ],
 }
