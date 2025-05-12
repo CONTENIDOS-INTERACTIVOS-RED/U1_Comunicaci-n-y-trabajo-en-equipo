@@ -10,29 +10,29 @@
         img.h-100(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
 
     p.mb-4 La comunicación entre los seres humanos, está cargada de una complejidad considerable. Esta complicación se deriva de múltiples factores que influyen en la interpretación del mensaje:
-    TabsC.mb-4
-      .tabs-content.border.px-4.p-md-5.py-3(titulo='El tono de voz', :icon="require('@/assets/curso/unidad/img-10.svg')")
-        .row
-          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-            figure
-              img(src='@/assets/curso/unidad/img-11.png', alt='Descripción de la imagen')
-          .col-md-12.col-lg-7.mb-4.mb-md-0
-            h4(data-aos='fade-up') El tono de voz
-            p(data-aos='fade-up') Puede alterar radicalmente la percepción de lo que se dice; un mismo mensaje puede ser interpretado de maneras muy distintas, dependiendo de cómo se exprese.
-      .tabs-content.border.px-4.p-md-5.py-3(titulo='El contexto', :icon="require('@/assets/curso/unidad/img-10.svg')")
-        .row
-          .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-            figure
-              img(src='@/assets/curso/unidad/img-12.png', alt='Descripción de la imagen')
-          .col-md-12.col-lg-7.mb-4.mb-md-0
-            h4(data-aos='fade-up') El contexto
-            p(data-aos='fade-up') En el que se produce la comunicación, juega un papel crucial. Un mensaje puede tener significados diferentes, según el entorno cultural, social o emocional, en el que se emita.
-
     .row.bg-fondo-1.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
+      div.px-5
+        TabsC.mb-4
+          .tabs-content.border.px-4.p-md-5.py-3(titulo='El tono de voz', :icon="require('@/assets/curso/unidad/img-10.svg')")
+            .row
+              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+                figure
+                  img(src='@/assets/curso/unidad/img-11.png', alt='Descripción de la imagen')
+              .col-md-12.col-lg-7.mb-4.mb-md-0
+                h4(data-aos='fade-up') El tono de voz
+                p(data-aos='fade-up') Puede alterar radicalmente la percepción de lo que se dice; un mismo mensaje puede ser interpretado de maneras muy distintas, dependiendo de cómo se exprese.
+          .tabs-content.border.px-4.p-md-5.py-3(titulo='El contexto', :icon="require('@/assets/curso/unidad/img-10.svg')")
+            .row
+              .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
+                figure
+                  img(src='@/assets/curso/unidad/img-12.png', alt='Descripción de la imagen')
+              .col-md-12.col-lg-7.mb-4.mb-md-0
+                h4(data-aos='fade-up') El contexto
+                p(data-aos='fade-up') En el que se produce la comunicación, juega un papel crucial. Un mensaje puede tener significados diferentes, según el entorno cultural, social o emocional, en el que se emita.
+
 
         p.mb-4(data-aos='fade-up') Además, es importante considerar las diferencias entre: 
-        .row.mb-4.justify-content-center
+        .row.mb-0.justify-content-center
           .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
             .custom-image-card.d-flex.flex-column.p-4.py-md-5
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-13.svg', style='width: 80px')
@@ -43,14 +43,14 @@
               img.mx-auto.mb-4(src='@/assets/curso/unidad/img-14.svg', style='width: 80px')
               p.text-bold.mb-4.text-center La comunicación escrita
               p.px-1.text-small.mb-0.d-flex.text-center Puede carecer de matices y entonaciones, lo que puede dar lugar a interpretaciones erróneas.
-        .row.mb-4
-          .col-12.col-xl-8
-            .bg-azul.p-4.mb-4(data-aos='fade-up')
-              span De igual manera se puede precisar que la comunicación verbal se refiere a lo que se expresa mediante el lenguaje hablado o escrito, pero esta categoría abarca mucho más que las palabras. Es esencial tener en cuenta aspectos como el tono de voz, que puede transmitir emociones y matices que complementan el mensaje verbal. Asimismo, el ritmo de la conversación es crucial; un discurso pausado puede sugerir reflexión, mientras que un ritmo acelerado puede transmitir urgencia o entusiasmo. Además, la elección de palabras debe ser contextual y adecuada al interlocutor, lo que requiere atención cuidadosa para asegurar que el mensaje sea comprendido efectivamente.
-            span La claridad y precisión son también componentes esenciales de la comunicación verbal. Un mensaje bien estructurado y articulado no solo facilita la comprensión, sino que también reduce el riesgo de malentendidos. Por lo tanto, es fundamental prestar atención a estos diversos elementos para lograr interacciones más efectivas y enriquecedoras.
-          .col-4.d-none.d-xl-block
-            img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
-        span En cuanto a la comunicación no verbal, esta abarca todas las expresiones que se transmiten más allá de las palabras. Incluye elementos como:
+    .row.mb-4
+      .col-12.col-xl-8
+        .bg-azul.p-4.mb-4(data-aos='fade-up')
+          span De igual manera se puede precisar que la comunicación verbal se refiere a lo que se expresa mediante el lenguaje hablado o escrito, pero esta categoría abarca mucho más que las palabras. Es esencial tener en cuenta aspectos como el tono de voz, que puede transmitir emociones y matices que complementan el mensaje verbal. Asimismo, el ritmo de la conversación es crucial; un discurso pausado puede sugerir reflexión, mientras que un ritmo acelerado puede transmitir urgencia o entusiasmo. Además, la elección de palabras debe ser contextual y adecuada al interlocutor, lo que requiere atención cuidadosa para asegurar que el mensaje sea comprendido efectivamente.
+        span La claridad y precisión son también componentes esenciales de la comunicación verbal. Un mensaje bien estructurado y articulado no solo facilita la comprensión, sino que también reduce el riesgo de malentendidos. Por lo tanto, es fundamental prestar atención a estos diversos elementos para lograr interacciones más efectivas y enriquecedoras.
+      .col-4.d-none.d-xl-block
+        img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
+    span En cuanto a la comunicación no verbal, esta abarca todas las expresiones que se transmiten más allá de las palabras. Incluye elementos como:
     .row.position-relative.mb-0.py-4.bg-fondo-slider.bg-full-width
       div.px-4.px-md-5.py-md-3
         SlyderA(tipo="b").bg-white
@@ -101,8 +101,8 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Contexto organizacional-empresarial
-          p.mb-5(data-aos="fade-up") La comprensión del contexto organizacional-empresarial es esencial para analizar cómo se configuran las dinámicas internas de las organizaciones y el papel que desempeña la comunicación en su funcionamiento. En el PDF Contexto organizacional-empresaria l, se estudia la evolución de la comunicación organizacional como disciplina, su relevancia en la estructura y cultura de las empresas, así como las consecuencias de una gestión inadecuada. A través de este contenido, se evidencian los efectos que puede tener la comunicación en la productividad, la motivación del personal, la toma de decisiones y la reputación corporativa, destacando su función como eje estratégico en el desarrollo organizacional.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Contexto organizacional-empresarial.pdf')" target="_blank")
+          p.mb-5(data-aos="fade-up") La comprensión del contexto organizacional-empresarial es esencial para analizar cómo se configuran las dinámicas internas de las organizaciones y el papel que desempeña la comunicación en su funcionamiento. En el PDF Contexto organizacional-empresarial, se estudia la evolución de la comunicación organizacional como disciplina, su relevancia en la estructura y cultura de las empresas, así como las consecuencias de una gestión inadecuada. A través de este contenido, se evidencian los efectos que puede tener la comunicación en la productividad, la motivación del personal, la toma de decisiones y la reputación corporativa, destacando su función como eje estratégico en el desarrollo organizacional.
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Contexto_organizacional.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Contexto organizacional-empresarial
         .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
@@ -172,19 +172,19 @@
     p.mb-4 El desarrollo de habilidades comunicativas en todos los niveles también es crucial, por lo que las organizaciones deben invertir en programas de capacitación que aborden, tanto las habilidades técnicas como las habilidades blandas, tales como:
 
     .row.mb-4
-      .col-6.col-md-4(data-aos="fade-right")
+      .col-6.col-lg-4.mx-auto(data-aos="fade-right")
         .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-32.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Tema 1
             span Empatía
-      .col-6.col-md-4(data-aos="fade-up")
+      .col-6.col-lg-4.mx-auto(data-aos="fade-up")
         .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-33.svg', alt='Texto descriptivo de la imagen')
           .my-auto
             p.pe-xl-3.mb-3.text-bold Tema 2
             span Escucha activa
-      .col-6.col-md-4(data-aos="fade-left")
+      .col-6.col-lg-4.mx-auto(data-aos="fade-left")
         .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-34.svg', alt='Texto descriptivo de la imagen')
           .my-auto
@@ -200,16 +200,16 @@
       .col-4.d-none.d-xl-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
 
-    .row.mb-4.bg-azul-claro.bg-full-width.p-4
-      .rounded.col-10.col-md-8.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
+    .row.mb-4.bg-azul-claro.bg-full-width.p-4.gap-4.gap-xl-0
+      .rounded.col-10.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
         p.my-auto En este orden de ideas:
       .col-2.col-xl-1.d-flex
         img.my-auto(src='@/assets/curso/unidad/img-36.svg', alt='Texto que describa la imagen')
-      .rounded.col-10.col-md-8.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
+      .rounded.col-10.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
         p.my-auto Entender la comunicación como oportunidad de encuentro con el otro, plantea una amplia gama de posibilidades de interacción en el ámbito social, 
       .col-2.col-xl-1.d-flex
         img.my-auto(src='@/assets/curso/unidad/img-36.svg', alt='Texto que describa la imagen')
-      .rounded.col-10.col-md-8.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
+      .rounded.col-10.col-xl-3.bg-naranja.p-4.d-flex.mx-auto
         p.my-auto Porque es allí donde tiene su razón de ser, debido a que es a través de ella como las personas logran el entendimiento, la coordinación y la cooperación que posibilitan el crecimiento y desarrollo de las organizaciones. 
       
     .d-flex.align-items-start.bg-verde-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
@@ -245,14 +245,14 @@
           .col-12.bg-azul.px-4
             .row
               .col-12.col-xl-8.d-flex
-                p.my-auto(data-aos="fade-up") A lo largo de este análisis, se ha observado que tanto la comunicación verbal como la no verbal, son fundamentales para establecer relaciones sólidas, motivar equipos y resolver conflictos, de manera efectiva.
+                p.my-auto.p-4.p-xl-0(data-aos="fade-up") A lo largo de este análisis, se ha observado que tanto la comunicación verbal como la no verbal, son fundamentales para establecer relaciones sólidas, motivar equipos y resolver conflictos, de manera efectiva.
               .col-4.d-none.d-xl-block(data-aos="fade-left")
                 img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
         .row
           .col-12.bg-azul-claro.px-4
             .row
               .col-12.col-xl-8.d-flex
-                p.my-auto(data-aos="fade-up") Aunque se demuestra la importancia de la comunicación organizacional, en la actualidad, aún en muchas organizaciones, prevalece una tendencia adversa al intercambio de información. Esta falta de comunicación suele originarse en la creencia errónea que poseer información equivale a tener poder.
+                p.my-auto.p-4.p-xl-0(data-aos="fade-up") Aunque se demuestra la importancia de la comunicación organizacional, en la actualidad, aún en muchas organizaciones, prevalece una tendencia adversa al intercambio de información. Esta falta de comunicación suele originarse en la creencia errónea que poseer información equivale a tener poder.
               .col-4.d-none.d-xl-block(data-aos="fade-left")
                 img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
           .col-12.bg-azul-oscuro.p-4.text-center

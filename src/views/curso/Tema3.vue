@@ -4,12 +4,12 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
       .row.mb-4 
-        .col-12.col-md-6.col-xl-4(data-aos="fade-right")
+        .col-10.col-lg-6.col-xl-4.mx-auto(data-aos="fade-right")
           .bg-azul.p-4.d-flex.h-100
             p.mb-0.my-auto Conocer los tipos de comunicación en un contexto organizacional, resulta fundamental por diversas razones: en primer lugar, la mejora de la eficiencia se convierte en un objetivo primordial; entender los diferentes tipos de comunicación, como la formal, informal, verbal y no verbal, permite a empleados y líderes seleccionar el canal más adecuado para transmitir información. Esta elección puede incrementar significativamente, la eficiencia en la transmisión de mensajes y en la toma de decisiones.
         .col-4.d-none.d-xl-block(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-73.png', alt='Texto que describa la imagen')
-        .col-12.col-md-6.col-xl-4
+        .col-10.col-lg-6.col-xl-4.mx-auto
           .bg-amarillo.p-4.d-flex.h-100
             p.mb-0.my-auto Además, la comunicación efectiva fomenta la colaboración entre equipos y departamentos. Al comprender cómo se comunican los distintos grupos dentro de la organización, se facilita el establecimiento de conexiones y el trabajo en equipo. Igualmente, la identificación de los tipos de comunicación desempeña un papel crucial en la resolución de conflictos. Al reconocer cómo surgen los malentendidos o desacuerdos, se pueden abordar y resolver de manera más efectiva, facilitando así la mediación y la negociación.
   
@@ -17,7 +17,7 @@
         .col-3.d-none.d-xl-block(data-aos="fade-right")
           img(src='@/assets/curso/unidad/img-74.png', alt='Texto que describa la imagen')
         .col-12.col-xl-9.d-flex.text-white
-          p.my-auto La forma en que se comunica dentro de una organización, también influye en su cultura. Por lo tanto, conocer los tipos de comunicación se convierte en una herramienta clave para que los líderes moldeen una cultura organizacional positiva que promueva la transparencia, el respeto y la inclusión. Asimismo, una comunicación clara y efectiva contribuye a la satisfacción y retención del empleado. Cuando los trabajadores perciben que su voz es escuchada y que la información fluye adecuadamente, es más probable que se sientan comprometidos y permanezcan en la organización. 
+          p.my-auto.p-4.p-xl-0 La forma en que se comunica dentro de una organización, también influye en su cultura. Por lo tanto, conocer los tipos de comunicación se convierte en una herramienta clave para que los líderes moldeen una cultura organizacional positiva que promueva la transparencia, el respeto y la inclusión. Asimismo, una comunicación clara y efectiva contribuye a la satisfacción y retención del empleado. Cuando los trabajadores perciben que su voz es escuchada y que la información fluye adecuadamente, es más probable que se sientan comprometidos y permanezcan en la organización. 
       
 
       .row.mb-4
@@ -105,7 +105,7 @@
 
       .row.mb-4.bg-azul.px-4.bg-full-width
         .col-12.col-xl-8.d-flex
-          p.my-auto Además de estar hiperconectados a través de diversos medios como redes sociales, correos electrónicos y aplicaciones de mensajería instantánea, esta conexión también potencia la capacidad de los individuos para multiplicar su presencia social. En la actualidad, cuando se lleva a cabo un evento social, ya sea una conferencia, una prueba, un debate u otro, no solo lo presencian en vivo aquellos que están físicamente presentes, sino también aquellos que lo siguen a través de las redes sociales. Esto permite aumentar la cobertura del evento e interactuar de manera efectiva con los seguidores (García & Días, 2014).
+          p.my-auto.p-4.p-xl-0 Además de estar hiperconectados a través de diversos medios como redes sociales, correos electrónicos y aplicaciones de mensajería instantánea, esta conexión también potencia la capacidad de los individuos para multiplicar su presencia social. En la actualidad, cuando se lleva a cabo un evento social, ya sea una conferencia, una prueba, un debate u otro, no solo lo presencian en vivo aquellos que están físicamente presentes, sino también aquellos que lo siguen a través de las redes sociales. Esto permite aumentar la cobertura del evento e interactuar de manera efectiva con los seguidores (García & Días, 2014).
         .col-4.d-none.d-xl-block(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-85.png', alt='Texto que describa la imagen')
       

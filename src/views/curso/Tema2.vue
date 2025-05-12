@@ -108,7 +108,7 @@
       
       .row.bg-marron.bg-full-width.px-4.mb-4
         .col-12.col-xl-7.d-flex
-          p.my-auto Sin duda la habilidad de comunicación en los líderes, es fundamental para el éxito organizacional. No solo facilita la transmisión de información y la alineación de objetivos, sino que también fortalece la cohesión del equipo, mejora la gestión del cambio y fomenta un entorno propicio para la resolución de conflictos. Por lo tanto, invertir en el desarrollo de esta competencia, es esencial para cualquier líder que aspire a guiar eficazmente a su organización hacia el futuro. 
+          p.my-auto.p-4.p-xl-0 Sin duda la habilidad de comunicación en los líderes, es fundamental para el éxito organizacional. No solo facilita la transmisión de información y la alineación de objetivos, sino que también fortalece la cohesión del equipo, mejora la gestión del cambio y fomenta un entorno propicio para la resolución de conflictos. Por lo tanto, invertir en el desarrollo de esta competencia, es esencial para cualquier líder que aspire a guiar eficazmente a su organización hacia el futuro. 
         .col-5.d-none.d-xl-block(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-60.png', alt='Texto que describa la imagen')
 
@@ -138,38 +138,38 @@
           p.mb-4 En el liderazgo basado en la credibilidad, intervienen factores claves como (Pacheco, 2006): 
 
           .row.mb-4
-            .col-6.col-xl-4
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-4.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-64.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La comunicación interpersonal efectiva.
-            .col-6.col-xl-4
-              .d-flex.align-items-start.bg-verde-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-4.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde-claro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-65.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La valoración de la creatividad y esfuerzo personal.
-            .col-6.col-xl-4
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-4.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-66.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La veracidad como paradigma de comportamiento del líder.
-            .col-6.col-xl-3
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-3.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-67.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La motivación.
-            .col-6.col-xl-3
-              .d-flex.align-items-start.bg-verde-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-3.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde-claro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-68.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 El cumplimiento de promesas.
-            .col-6.col-xl-3
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-3.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-69.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La delegación de responsabilidades.
-            .col-6.col-xl-3
-              .d-flex.align-items-start.bg-verde-claro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            .col-6.col-xl-3.mb-4.mx-auto
+              .d-flex.align-items-start.bg-verde-claro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
                 img.me-3(style='width: 75px' src='@/assets/curso/unidad/img-70.svg', alt='Texto descriptivo de la imagen')
                 .my-auto
                   p.mb-0 La valoración del trabajo en equipo. 
@@ -184,7 +184,7 @@
       
       .row.mb-5.bg-verde-oscuro.px-4.text-white
         .col-12.col-xl-8.d-flex.d-flex
-          p.my-auto Como se evidencia, la comunicación tiene un gran valor en las organizaciones, por lo cual, es fundamental evaluar y medir la efectividad de las estrategias de comunicación. Realizar encuestas o análisis de clima organizacional puede proporcionar información sobre cómo se percibe la comunicación dentro de la organización y señalar áreas que requieren mejoras. Finalmente, comunicar los esfuerzos de responsabilidad social y sostenibilidad, no solo mejora la imagen de la organización, sino que también fortalece la lealtad de empleados y clientes. Incorporar la comunicación de manera estratégica en todas las áreas de una organización, no solo mejora la eficiencia operativa, sino que también contribuye al bienestar de los empleados y a la satisfacción del cliente. 
+          p.my-auto.p-4.p-xl-0 Como se evidencia, la comunicación tiene un gran valor en las organizaciones, por lo cual, es fundamental evaluar y medir la efectividad de las estrategias de comunicación. Realizar encuestas o análisis de clima organizacional puede proporcionar información sobre cómo se percibe la comunicación dentro de la organización y señalar áreas que requieren mejoras. Finalmente, comunicar los esfuerzos de responsabilidad social y sostenibilidad, no solo mejora la imagen de la organización, sino que también fortalece la lealtad de empleados y clientes. Incorporar la comunicación de manera estratégica en todas las áreas de una organización, no solo mejora la eficiencia operativa, sino que también contribuye al bienestar de los empleados y a la satisfacción del cliente. 
         .col-4.d-none.d-xl-block(data-aos="fade-left")
           img(src='@/assets/curso/unidad/img-72.png', alt='Texto que describa la imagen')
           

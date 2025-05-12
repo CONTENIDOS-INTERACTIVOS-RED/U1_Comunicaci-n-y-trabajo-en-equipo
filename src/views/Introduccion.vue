@@ -27,34 +27,34 @@
             span La unidad está estructurada de manera que se abordarán progresivamente los siguientes temas:
 
         .row.mb-0
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          .col-10.col-md-6.mb-4.mx-auto
+            .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
               img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-4.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se inicia con
+              .m-auto
+                p.pe-xl-3.mb-4.text-bold.text-center Se inicia con
                 span La importancia de la comunicación en la empresa.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          .col-10.col-md-6.mb-4.mx-auto
+            .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
               img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-5.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se continúa con
+              .m-auto
+                p.pe-xl-3.mb-4.text-bold.text-center Se continúa con
                 span Su función estratégica.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          .col-10.col-md-6.mb-4.mx-auto
+            .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
               img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-6.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se dan a conocer
+              .m-auto
+                p.pe-xl-3.mb-4.text-bold.text-center Se dan a conocer
                 span Los distintos tipos de comunicación.
-          .col-10.col-md-6
-            .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+          .col-10.col-md-6.mb-4.mx-auto
+            .d-flex.align-items-start.bg-verde.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
               img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-7.svg', alt='Texto descriptivo de la imagen')
-              .my-auto
-                p.pe-xl-3.mb-4.text-bold Se llevan a cabo
+              .m-auto
+                p.pe-xl-3.mb-4.text-bold.text-center Se llevan a cabo
                 span Actividades interactivas que permitirán aplicar lo aprendido, en contextos reales.
 
     .row.bg-verde-oscuro.bg-full-width.py-4
-      .col-12.col-xl-8
-        span.text-white Se invita a los participantes a mantener un compromiso activo durante el desarrollo de la unidad. La participación en las actividades y el estudio de los contenidos será esencial para maximizar el aprendizaje. Se sugiere revisar conceptos previos relacionados con la comunicación básica, dado que esto facilitará una comprensión más profunda de los temas tratados. Con la intención de fomentar un ambiente de aprendizaje enriquecedor, se anima a todos a contribuir con sus perspectivas y experiencias en el ámbito empresarial.
+      .col-12.col-xl-8.px-4.d-flex
+        p.text-white.my-auto.px-4 Se invita a los participantes a mantener un compromiso activo durante el desarrollo de la unidad. La participación en las actividades y el estudio de los contenidos será esencial para maximizar el aprendizaje. Se sugiere revisar conceptos previos relacionados con la comunicación básica, dado que esto facilitará una comprensión más profunda de los temas tratados. Con la intención de fomentar un ambiente de aprendizaje enriquecedor, se anima a todos a contribuir con sus perspectivas y experiencias en el ámbito empresarial.
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen') 
 
